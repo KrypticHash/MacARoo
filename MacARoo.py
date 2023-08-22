@@ -2,5 +2,5 @@
 
 import subprocess
 
-subprocess.call("ifconfig", Shell=True)
+subprocess.call("ifconfig", shell=True)
 
