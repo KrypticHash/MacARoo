@@ -1,4 +1,4 @@
-# 🕶️ MacARoo - The Mac Address Changer 🕶️
+# MacARoo - The Mac Address Changer 🕶️
 
 Welcome to MacARoo! 🎉
 
