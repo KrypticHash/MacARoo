@@ -25,13 +25,63 @@ MacARoo is a simple yet powerful command-line tool that lets you change your dev
 
 ## Usage 🛠️
 
-- **Random Mode**: `macaroo random`
-- **Custom Mode**: `macaroo set XX:XX:XX:XX:XX:XX`
-- **Stealth Mode**: `macaroo stealth --interval 300`
-- **Backup MAC**: `macaroo backup`
-- **Restore MAC**: `macaroo restore`
+---
 
-Remember, with great power comes great responsibility! Use MacARoo wisely. 🦸‍♂️
+# MAC Address Changer Script
+
+The MAC Address Changer Script is a Python utility that allows you to change the MAC address of a network interface on a Linux system. This can be useful for various purposes, such as enhancing privacy, bypassing MAC address-based access controls, or troubleshooting network issues.
+
+## Prerequisites
+
+- Linux operating system (the script is designed for Linux environments)
+- Python interpreter (Python 2 or 3)
+
+## Usage
+
+Follow the steps below to use the MAC Address Changer Script:
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/your-username/mac-address-changer.git
+   cd mac-address-changer
+   ```
+
+2. Run the script using Python:
+
+   ```bash
+   python mac_changer.py -i <interface> -m <new_mac>
+   ```
+
+   Replace `<interface>` with the name of the network interface whose MAC address you want to change, and `<new_mac>` with the desired MAC address. Make sure to use the following format for the MAC address: `XX:XX:XX:XX:XX:XX`.
+
+   For example:
+
+   ```bash
+   python mac_changer.py -i eth0 -m 00:11:22:33:44:55
+   ```
+
+3. The script will disable the specified interface, change its MAC address, and then re-enable the interface. You will see output similar to the following:
+   ```
+   [+] Changing MAC address for eth0 to 00:11:22:33:44:55
+   ```
+
+## Options
+
+The MAC Address Changer Script provides the following command-line options:
+
+- `-i`, `--interface`: Specify the name of the network interface for which you want to change the MAC address.
+- `-m`, `--mac`: Specify the new MAC address you want to set for the interface.
+
+If you do not provide both the interface and the new MAC address using the options above, the script will display an error message and provide guidance on using the `--help` option for more information.
+
+## Example
+
+Here's an example of how to use the script to change the MAC address of the `eth0` interface to `00:11:22:33:44:55`:
+
+```bash
+python mac_changer.py -i eth0 -m 00:11:22:33:44:55
+```
 
 ## Contribution Guidelines 🤝
 
@@ -41,4 +91,8 @@ Dive into the MacARoo experience! Your digital adventures await. Happy masking! 
 
 ---
 
-Disclaimer: MacARoo is intended for educational and ethical purposes only. Please respect the laws and regulations of your jurisdiction while using this tool. We're not responsible for any misuse. Stay cool, stay responsible! 👾👌
+## Disclaimer
+
+This script is provided as-is and should be used responsibly and in accordance with applicable laws and regulations. Changing MAC addresses may have unintended consequences on network connectivity and security. The author(s) of this script are not responsible for any misuse, damage, or legal issues caused by its use.
+
+Remember, with great power comes great responsibility! Use MacARoo wisely. 🦸‍♂️
