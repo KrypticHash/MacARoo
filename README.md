@@ -18,7 +18,7 @@ MacARoo is a simple yet powerful command-line tool that lets you change your dev
 
 ## Usage 🛠️
 
-Follow the steps below to use the MAC Address Changer Script:
+Follow the steps below to use the MacARoo:
 
 1. Clone the repository:
 
@@ -62,14 +62,6 @@ Here's an example of how to use the script to change the MAC address of the `eth
 ```bash
 python mac_changer.py -i eth0 -m 00:11:22:33:44:55
 ```
-
-## Contribution Guidelines 🤝
-
-We're all about community vibes! If you're as excited about privacy and tech as we are, feel free to contribute to MacARoo. Fork the repository, add your emoji flair, and submit a pull request. Let's keep the digital world exciting together! 🚀
-
-Dive into the MacARoo experience! Your digital adventures await. Happy masking! 🎭🌐
-
----
 
 ## Disclaimer
 
