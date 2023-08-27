@@ -25,19 +25,6 @@ MacARoo is a simple yet powerful command-line tool that lets you change your dev
 
 ## Usage 🛠️
 
----
-
-# MAC Address Changer Script
-
-The MAC Address Changer Script is a Python utility that allows you to change the MAC address of a network interface on a Linux system. This can be useful for various purposes, such as enhancing privacy, bypassing MAC address-based access controls, or troubleshooting network issues.
-
-## Prerequisites
-
-- Linux operating system (the script is designed for Linux environments)
-- Python interpreter (Python 2 or 3)
-
-## Usage
-
 Follow the steps below to use the MAC Address Changer Script:
 
 1. Clone the repository:
