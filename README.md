@@ -30,7 +30,7 @@ Follow the steps below to use the MacARoo:
 2. Run the script using Python:
 
    ```bash
-   python mac_changer.py -i <interface> -m <new_mac>
+   python MacARoo.py -i <interface> -m <new_mac>
    ```
 
    Replace `<interface>` with the name of the network interface whose MAC address you want to change, and `<new_mac>` with the desired MAC address. Make sure to use the following format for the MAC address: `XX:XX:XX:XX:XX:XX`.
@@ -38,7 +38,7 @@ Follow the steps below to use the MacARoo:
    For example:
 
    ```bash
-   python mac_changer.py -i eth0 -m 00:11:22:33:44:55
+   python MacARoo.py -i eth0 -m 00:11:22:33:44:55
    ```
 
 3. The script will disable the specified interface, change its MAC address, and then re-enable the interface. You will see output similar to the following:
@@ -60,7 +60,7 @@ If you do not provide both the interface and the new MAC address using the optio
 Here's an example of how to use the script to change the MAC address of the `eth0` interface to `00:11:22:33:44:55`:
 
 ```bash
-python mac_changer.py -i eth0 -m 00:11:22:33:44:55
+python MacARoo.py -i eth0 -m 00:11:22:33:44:55
 ```
 
 ## Disclaimer
