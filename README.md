@@ -16,13 +16,6 @@ MacARoo is a simple yet powerful command-line tool that lets you change your dev
 - **Backup & Restore**: Don't lose your original MAC address. We've got your back! 🛡️
 - **Emoji Magic**: Add a touch of whimsy to your MAC address. Who said tech can't be fun? 🦄✨
 
-## Installation 🚀
-
-1. Clone the MacARoo repository: `git clone https://github.com/yourusername/MacARoo.git`
-2. Navigate to the MacARoo directory: `cd MacARoo`
-3. Run the installation script: `./install.sh`
-4. Follow the on-screen prompts. MacARoo will get cozy on your system. ☕
-
 ## Usage 🛠️
 
 Follow the steps below to use the MAC Address Changer Script:
@@ -30,8 +23,8 @@ Follow the steps below to use the MAC Address Changer Script:
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/mac-address-changer.git
-   cd mac-address-changer
+   git clone https://github.com/KrypticHash/MacARoo.git
+   cd MacARoo
    ```
 
 2. Run the script using Python:
