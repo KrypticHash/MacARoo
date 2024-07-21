@@ -3,7 +3,7 @@
 Welcome to MacARoo! 🎉
      
 Tired of being tracked? Looking for a way to spice up your digital life? MacARoo is here to help you rock the cyber world incognito-style! 🕵️‍♂️ Change your MAC address with flair using our delightful tool. Whether you're a privacy-conscious ninja or just a curious soul, MacARoo has got your back.
- 
+  
 ## What's MacARoo All About? 🤔
 
 MacARoo is a simple yet powerful command-line tool that lets you change your device's MAC address effortlessly. A MAC address is like your device's fingerprint in the digital realm. By changing it, you can dodge those pesky network trackers and roam the online universe like a shadow. 🌌
